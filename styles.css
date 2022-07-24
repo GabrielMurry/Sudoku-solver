@@ -1,0 +1,59 @@
+h1 {
+    text-align: center;
+    position: relative;
+    margin-top: 35px;
+    font-size: 50px;
+}
+#puzzle {
+    width: 450px;
+    height: 450px;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -220px;
+}
+
+#puzzle input {
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    border-spacing: 0;
+    border: 1px grey solid;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.odd-section {
+    background-color: lightgrey;
+}
+
+#solve-button {
+    background-color: coral;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    border: none;
+    position: absolute;
+    top: 67%;
+    left: 46%;
+}
+
+#solution {
+    position: absolute;
+    top: 75%;
+    left: 48%;
+}
+
+#solve-button:hover {
+    background-color: rgb(183, 93, 60); 
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; 
+}
